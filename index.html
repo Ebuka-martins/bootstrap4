@@ -13,21 +13,36 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="/" class="navbar-brand">whiskey Drop</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="/Login">Sign In / Sign Up</a></li>
+        </ul>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"><i>Great Whiskey delivered to your door!</i></p>
+            <a href="/Login">Sign In / Sign Up</a>
+        </div>
 
-    <article class="container">
+    </nav>
+
+    <article class="container mt-3">
         <!-- Callout -->
         <div class="row">
-            <div class="col-12">
-                <section class="callout">
-                        <h1>The finest whiskeys delivered to your doorstep.</h1>
-                        <p class="lead">Sign up today to start receiving the world's best whiskeys every month. First one is
-                            free!
-                            <s>$19.99</s> <strong><mark>The First one is Free</mark></strong></p>
-                        <button class="btn btn-success btn-lg">Sign Up!</button>
-                        <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink
-                                responsibly</small></p>
+            <div class="col-12 my-5">
+                <section class="callout jumbotron text-center">
+                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month. First one is
+                        free!
+                        <s class="d-none d-sm-none">$19.99</s>
+                        <span class="d-inline d-sm-none"><br></span>
+                        <strong><mark>The First one is Free</mark></strong></p>
+                    <button class="btn btn-success btn-lg">Sign Up!</button>
+                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink
+                            responsibly</small></p>
                 </section>
-           </div>
+            </div>
         </div>
         <!-- /.callout -->
         <hr>
@@ -36,8 +51,8 @@
         <section class="quotes">
             <div class="row">
                 <div class="col-12">
-                 <h2 class="text-uppercase">Quotes:</h2>
-               </div>
+                    <h2 class="text-uppercase">Quotes:</h2>
+                </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-6">
@@ -61,7 +76,7 @@
         <section class="features">
             <div class="row">
                 <div class="col-12">
-                  <h2 class="text-uppercase">Features:</h2>
+                    <h2 class="text-uppercase">Features:</h2>
                 </div>
             </div>
             <div class="row">
@@ -69,7 +84,8 @@
                     <div class="feature">
                         <h3>Feature 1</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation
                             ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <p><a class="btn btn-sm btn-light">Read More</a></p>
                     </div>
