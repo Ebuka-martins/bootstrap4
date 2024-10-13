@@ -2,8 +2,6 @@ body {
     font-family:roboto sans-serif;
 }
 
-.container-wrapper {}
-
 .container-wrapper--red {
     background-color: #f05f40;
     color: #ffffff;
@@ -46,13 +44,6 @@ body {
     background-color: rgba(0, 0, 0, .5);
 }
 
-.quotes.container {
-
-}
-
-.features-container {
-
-}
 
 /* page header */
 .page-header {
